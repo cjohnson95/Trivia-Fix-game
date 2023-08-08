@@ -1,0 +1,16 @@
+body {
+    background-color: #D8D8F6;
+}
+
+h1 {
+    color: #632B95;
+    text-align: center;
+}
+
+.box {
+    width: 200px;
+    height: 150px;
+    background-color: #f0f0f0;
+    border: 1px solid #ccc;
+    padding: 10px;
+  }
