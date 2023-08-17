@@ -1,16 +1,63 @@
 body {
-    background-color: #D8D8F6;
+   background-image: url(triviaimg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: flex-start;
+    height: 100vh;
+    margin: 0;
+    flex-direction: column;
 }
 
+.container {
+    max-width: 800px; /* Set the maximum width for the container */
+    margin: 0 auto; /* Center the container horizontally */
+    padding: 20px; /* Add some padding to create space around the content */
+    display: absolute; /* Add flex display to the container */
+    flex-direction: row; /* Set the container to flex direction row */
+    align-items: flex-start; /* Align the child elements to the top */
+    justify-content: space-between; /* Add space between the child elements */
+    font-size: large;
+    color: #44156d;
+}
 h1 {
     color: #632B95;
-    text-align: center;
+    text-align:center;
+    top: 0;
+    font-size:xx-large;
+
 }
 
-.box {
-    width: 200px;
-    height: 150px;
-    background-color: #f0f0f0;
-    border: 1px solid #ccc;
-    padding: 10px;
+
+
+.styled-button {
+    font-size: 16px;
+    color: white;
+    background-color: #632B95;
+    border: groove;
+    border-color: #3DE3E1;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 25px;
+
+}
+
+.styled-button2 {
+    font-size: 16px;
+    color: white;
+    background-color: #632B95;
+    border: groove;
+    border-color: #3DE3E1;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 25px;
+
+}
+
+.timer {
+    font-size: 24px;
+    font-weight: bold;
+    color: #632B95 ;
+    margin-top: 10px;
   }
+
